@@ -26,11 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- ![](./screenshot.jpg) -->
+![Desktop image](./images/screenshot-desktop.png)
+![Mobile image](./images/screenshot-mobile.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://adarshshanbhag5.github.io/Weather-app/](https://adarshshanbhag5.github.io/Weather-app/)
 
 ## My process
 

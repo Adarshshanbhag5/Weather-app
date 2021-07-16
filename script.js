@@ -2,7 +2,7 @@
 const api = {
     key: "b7238eafe4603d0a88f87bda10c3a4a5",
     baseUrl: "https://api.openweathermap.org/data/2.5/",
-    iconUrl: "http://openweathermap.org/img/wn/",
+    iconUrl: "https://openweathermap.org/img/wn/",
 };
 
 const searchBox = document.querySelector(".search-box");
@@ -44,7 +44,7 @@ function initialRequest() {
 }
 
 function getResults(data) {
-    console.log(data);
+    // console.log(data);
 
     const mainDetail = document.querySelector(".today-weather-wrap");
 
@@ -79,7 +79,7 @@ function getResults(data) {
 }
 
 function mainApiResult(details) {
-    console.log(details);
+    // console.log(details);
 
     let now = new Date();
     let timeZone = details.timezone; //timezone will be same for one search result OR one city so only once declatarion
