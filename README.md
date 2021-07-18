@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://adarshshanbhag5.github.io/Weather-app/](https://adarshshanbhag5.github.io/Weather-app/)
+- Live Site URL: [https://vibrant-benz-34ded4.netlify.app/](https://vibrant-benz-34ded4.netlify.app/)
 
 ## My process
 
