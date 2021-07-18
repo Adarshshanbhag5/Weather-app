@@ -1,7 +1,7 @@
 {
     "name":"Weathet Now",
     "short_name":"Weather",
-    "start_url":"/index.html",
+    "start_url":"/",
     "display":"standalone",
     "background_color":"rgb(47, 150, 163)",
     "theme_color":"rgb(47, 160, 163)",
