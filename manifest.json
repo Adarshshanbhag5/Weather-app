@@ -1,0 +1,23 @@
+{
+    "name":"Weathet Now",
+    "short_name":"Weather",
+    "start_url":"/index.html",
+    "display":"standalone",
+    "background_color":"rgb(47, 150, 163)",
+    "theme_color":"rgb(47, 160, 163)",
+    "orientation":"portrait-primary",
+    "icons":[
+        {
+            "src": "icons/manifest-icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "icons/manifest-icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable any"
+        }
+    ]
+}

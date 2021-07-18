@@ -8,7 +8,7 @@
 
 body {
   font-family: sans-serif;
-  background: url("./images/bg.jpg");
+  background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -113,6 +113,7 @@ main {
 .tommorow-weather-wrap {
   width: 100%;
   margin: 0.5rem auto;
+  padding: 0 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -175,20 +176,21 @@ main {
 .sub-details,
 .sub-details-8-days {
   display: grid;
-  grid-template-columns: repeat(2, 120px);
+  grid-template-columns: repeat(2, 150px);
   row-gap: 10px;
   margin-top: 1rem;
 }
 
 .sub-details .title,
 .sub-details-8-days .title {
-  color: #777;
+  color: rgb(41, 41, 41);
 }
 
 .wind-box-wrap {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 70%;
+  align-items: center;
   margin-top: 1rem;
 }
 
@@ -202,13 +204,6 @@ main {
 .wind-box-1 .wind-main {
   font-size: 3rem;
   font-weight: 600;
-}
-
-.wind-box-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
 }
 
 .sunset,
@@ -267,7 +262,7 @@ main {
 
 .sub-details-8-days {
   padding: 2rem 1.5rem;
-  grid-template-columns: repeat(2, 140px);
+  grid-template-columns: repeat(2, 150px);
   margin: 0;
 }
 

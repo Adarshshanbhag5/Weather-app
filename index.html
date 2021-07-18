@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="rgb(47, 160, 163)" />
     <link rel="shortcut icon" href="./images/favicon.ico" />
     <link
       rel="icon"
@@ -18,11 +19,12 @@
       sizes="16x16"
     />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="manifest" href="./manifest.json" />
     <title>Weather Now</title>
   </head>
   <body>
     <header>
-      <h1>Weather app</h1>
+      <h1>Weather now</h1>
     </header>
     <div class="controls">
       <div class="search-container">
@@ -37,7 +39,7 @@
         <ul class="main-ul">
           <li class="nav-links selected">TODAY</li>
           <li class="nav-links">TOMORROW</li>
-          <li class="nav-links">10 DAYS</li>
+          <li class="nav-links">08 DAYS</li>
         </ul>
       </nav>
     </div>
@@ -48,20 +50,17 @@
             <div class="weather-detail">
               <div class="date-container">11 July, 10:45 pm</div>
               <div class="day-night-temp-container">
-                <span>Day 27&deg;&uarr;</span>
-                <span>Night 24&deg;&darr;</span>
+                <span>Day --&deg;&uarr;</span>
+                <span>Night --&deg;&darr;</span>
               </div>
-              <div class="main-temperature">26<span>&deg;C</span></div>
+              <div class="main-temperature">--<span>&deg;C</span></div>
               <div class="feels-like-temp">
-                Feels like 29<span>&deg;C</span>
+                Feels like --<span>&deg;C</span>
               </div>
             </div>
             <div class="weather-icon-container">
               <div class="icon">
-                <img
-                  src="https://openweathermap.org/img/wn/11d@2x.png"
-                  alt=""
-                />
+                <img src="" alt="" />
               </div>
               <div class="icon-description">Light rain showers</div>
             </div>
@@ -72,43 +71,37 @@
               <h4>Current details</h4>
               <div class="sub-details">
                 <div class="title">Humidity</div>
-                <div class="title-detail">91%</div>
+                <div class="title-detail"></div>
                 <div class="title">Dew point</div>
-                <div class="title-detail">24&deg;C</div>
+                <div class="title-detail"></div>
                 <div class="title">Pressure</div>
-                <div class="title-detail">1,006 mBar</div>
+                <div class="title-detail"></div>
                 <div class="title">UV index</div>
-                <div class="title-detail">Low,0</div>
+                <div class="title-detail"></div>
                 <div class="title">Chance of rain</div>
-                <div class="title-detail">90%</div>
+                <div class="title-detail"></div>
                 <div class="title">Visibility</div>
-                <div class="title-detail">10 km</div>
+                <div class="title-detail"></div>
               </div>
             </div>
             <div class="wind-detail">
               <h4>Wind</h4>
               <div class="wind-box-wrap">
                 <div class="wind-box-1">
-                  <div class="wind-main">5</div>
-                  <div>
-                    <div class="dir-icon"></div>
-                    <div class="uints">km/h</div>
-                  </div>
+                  <div class="wind-main">--</div>
+                  <div class="uints">km/h</div>
                 </div>
-                <div class="wind-box-2">
-                  <div class="wind-type">Calm</div>
-                  <div class="curr-dir">Now.From west</div>
-                </div>
+                <div class="curr-dir"></div>
               </div>
             </div>
             <div class="sunrise-set-container">
               <div class="sunrise">
                 <h5>Sunrise</h5>
-                <div class="sunrise-time">6:11 am</div>
+                <div class="sunrise-time">--:-- am</div>
               </div>
               <div class="sunset">
                 <h5>Sunset</h5>
-                <div class="sunrise-time">7:05 pm</div>
+                <div class="sunrise-time">--:-- pm</div>
               </div>
               <div class="length-day">length of day:<span>--h --m</span></div>
               <div class="remaining-light">
@@ -130,10 +123,7 @@
             </div>
             <div class="weather-icon-container">
               <div class="icon">
-                <img
-                  src="https://openweathermap.org/img/wn/11d@2x.png"
-                  alt=""
-                />
+                <img src="" alt="" />
               </div>
             </div>
           </div>
@@ -143,41 +133,35 @@
               <h4>Current details</h4>
               <div class="sub-details">
                 <div class="title">Humidity</div>
-                <div class="title-detail">91%</div>
+                <div class="title-detail"></div>
                 <div class="title">Dew point</div>
-                <div class="title-detail">24&deg;C</div>
+                <div class="title-detail"></div>
                 <div class="title">Pressure</div>
-                <div class="title-detail">1,006 mBar</div>
+                <div class="title-detail"></div>
                 <div class="title">UV index</div>
-                <div class="title-detail">Low,0</div>
+                <div class="title-detail"></div>
                 <div class="title">Chance of rain</div>
-                <div class="title-detail">90%</div>
+                <div class="title-detail"></div>
               </div>
             </div>
             <div class="wind-detail">
               <h4>Wind</h4>
               <div class="wind-box-wrap">
                 <div class="wind-box-1">
-                  <div class="wind-main">5</div>
-                  <div>
-                    <div class="dir-icon"></div>
-                    <div class="uints">km/h</div>
-                  </div>
+                  <div class="wind-main">--</div>
+                  <div class="uints">km/h</div>
                 </div>
-                <div class="wind-box-2">
-                  <div class="wind-type">Calm</div>
-                  <div class="curr-dir">Now.From west</div>
-                </div>
+                <div class="curr-dir"></div>
               </div>
             </div>
             <div class="sunrise-set-container">
               <div class="sunrise">
                 <h5>Sunrise</h5>
-                <div class="sunrise-time">6:11 am</div>
+                <div class="sunrise-time">--:-- am</div>
               </div>
               <div class="sunset">
                 <h5>Sunset</h5>
-                <div class="sunrise-time">7:05 pm</div>
+                <div class="sunrise-time">--:-- pm</div>
               </div>
               <div class="length-day">length of day: <span>--h --m</span></div>
               <div class="remaining-light">
@@ -370,5 +354,17 @@
       </div>
     </main>
     <script src="./script.js" defer></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("/sw.js")
+          .then(() => {
+            console.log("service worker registered");
+          })
+          .catch(() => {
+            console.log("Your browser not support service worker");
+          });
+      }
+    </script>
   </body>
 </html>

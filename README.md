@@ -13,6 +13,7 @@ Feel free to give any suggestions, improvements, download/pull the repository :)
   - [Built with](#built-with)
   - [Make it your own](#Make-it-your-own)
   - [Future development](#Future-development)
+  - [New changes](#New-changes)
 - [Author](#author)
 
 ## Overview
@@ -25,9 +26,6 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
-
-![Desktop image](./images/screenshot-desktop.png)
-![Mobile image](./images/screenshot-mobile.png)
 
 ### Links
 
@@ -59,9 +57,15 @@ const api = {
 ### Future development
 
 - This is very first version as i am beginer to js the code is not very well organised, i will try to organise it in future
-- Some features not works like 'lenght of day','Remaining daylight','wind direction'
+- Some features not works like 'lenght of day','Remaining daylight'
 - Will try to add some animations on change of city or data
 - Will try to add some new feature like graphs etc.
+
+### New changes
+
+- Added PWA to this!!:)
+- You can use this like natvie app on your phone just install it by clicking add to homeScreen or it will popup
+- Now code is not very well but organised
 
 ## Author
 
